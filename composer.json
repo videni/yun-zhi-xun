@@ -1,0 +1,50 @@
+{
+    "name": "videni/sms-yun-zhi-xun",
+    "description": "云之讯短信发送包",
+    "keywords": [
+        "sms",
+        "短信",
+        "api",
+        "接口",
+        "云之讯"
+    ],
+    "homepage": "https://github.com/videni/sms-yun-zhi-xun",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vidy videni",
+            "email": "vidy.videni@gmail.com",
+            "homepage": "https://github.com/videni",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "huying/sms": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "YunZhiXun\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YunZhiXun\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:echo58/sms.git"
+        }
+    ]
+}
