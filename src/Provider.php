@@ -9,13 +9,12 @@ use Huying\Sms\ProviderException;
 use Psr\Http\Message\ResponseInterface;
 
 /**
- * 容联短信平台接口实现
+ * 云之讯短信平台接口实现
  *
  * Class Provider
  */
 class Provider extends AbstractProvider
 {
-
     /**
      * Rest URL
      *

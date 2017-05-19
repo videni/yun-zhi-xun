@@ -7,7 +7,7 @@
 通过 Composer 安装
 
 ``` bash
-$ composer require huying/sms-ronglian
+$ composer require "videni/sms-yun-zhi-xun"
 ```
 
 ## 使用方法
